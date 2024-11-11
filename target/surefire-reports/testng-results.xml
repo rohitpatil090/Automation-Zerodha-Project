@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="11" failed="2" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-08T23:46:39 IST" name="Surefire suite" finished-at="2024-11-08T23:46:39 IST" duration-ms="282">
+    <groups>
+      <group name="Dashboard">
+        <method signature="TestClass_final.ValidatingDashboardTab()[pri:1, instance:TestPackage.TestClass_final@3c419631]" name="ValidatingDashboardTab" class="TestPackage.TestClass_final"/>
+        <method signature="TestClass_final.ValidatingOrdersTab()[pri:2, instance:TestPackage.TestClass_final@3c419631]" name="ValidatingOrdersTab" class="TestPackage.TestClass_final"/>
+        <method signature="TestClass_final.ValidatingHoldingsTab()[pri:3, instance:TestPackage.TestClass_final@3c419631]" name="ValidatingHoldingsTab" class="TestPackage.TestClass_final"/>
+      </group> <!-- Dashboard -->
+    </groups>
+    <test started-at="2024-11-08T23:46:39 IST" name="Surefire test" finished-at="2024-11-08T23:46:39 IST" duration-ms="282">
+      <class name="TestClass_TestNG.TestNG_Basic_Hierarchy">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:TestClass_TestNG.TestNG_Basic_Hierarchy@4c9f8c13]" started-at="2024-11-08T23:46:39 IST" name="beforeclass" finished-at="2024-11-08T23:46:39 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestClass_TestNG.TestNG_Basic_Hierarchy@4c9f8c13]" started-at="2024-11-08T23:46:39 IST" name="beforemethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="TC01()[pri:0, instance:TestClass_TestNG.TestNG_Basic_Hierarchy@4c9f8c13]" started-at="2024-11-08T23:46:39 IST" name="TC01" finished-at="2024-11-08T23:46:39 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestClass_TestNG.TestNG_Basic_Hierarchy@4c9f8c13]" started-at="2024-11-08T23:46:39 IST" name="aftermethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestClass_TestNG.TestNG_Basic_Hierarchy@4c9f8c13]" started-at="2024-11-08T23:46:39 IST" name="beforemethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="TC02()[pri:0, instance:TestClass_TestNG.TestNG_Basic_Hierarchy@4c9f8c13]" started-at="2024-11-08T23:46:39 IST" name="TC02" finished-at="2024-11-08T23:46:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestClass_TestNG.TestNG_Basic_Hierarchy@4c9f8c13]" started-at="2024-11-08T23:46:39 IST" name="aftermethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestClass_TestNG.TestNG_Basic_Hierarchy@4c9f8c13]" started-at="2024-11-08T23:46:39 IST" name="beforemethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="TC03()[pri:0, instance:TestClass_TestNG.TestNG_Basic_Hierarchy@4c9f8c13]" started-at="2024-11-08T23:46:39 IST" name="TC03" finished-at="2024-11-08T23:46:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestClass_TestNG.TestNG_Basic_Hierarchy@4c9f8c13]" started-at="2024-11-08T23:46:39 IST" name="aftermethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:TestClass_TestNG.TestNG_Basic_Hierarchy@4c9f8c13]" started-at="2024-11-08T23:46:39 IST" name="afterclass" finished-at="2024-11-08T23:46:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- TestClass_TestNG.TestNG_Basic_Hierarchy -->
+      <class name="TestPackage.TestClass_final">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:TestPackage.TestClass_final@3c419631]" started-at="2024-11-08T23:46:39 IST" name="browserLaunch" finished-at="2024-11-08T23:46:39 IST" duration-ms="74" status="FAIL">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: D:\Automation -Selenium Webdriver\chromedriver_win32\chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\Automation -Selenium Webdriver\chromedriver_win32\chromedriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at BasePackage.BaseClass.launchBrowser(BaseClass.java:26)
+at TestPackage.TestClass_final.browserLaunch(TestClass_final.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPackage.TestClass_final@3c419631]" started-at="2024-11-08T23:46:39 IST" name="login" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="AddingCommodityStockToWatchlist()[pri:0, instance:TestPackage.TestClass_final@3c419631]" started-at="2024-11-08T23:46:39 IST" name="AddingCommodityStockToWatchlist" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: D:\Automation -Selenium Webdriver\chromedriver_win32\chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\Automation -Selenium Webdriver\chromedriver_win32\chromedriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at BasePackage.BaseClass.launchBrowser(BaseClass.java:26)
+at TestPackage.TestClass_final.browserLaunch(TestClass_final.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingCommodityStockToWatchlist -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:TestPackage.TestClass_final@3c419631]" started-at="2024-11-08T23:46:39 IST" name="aftermethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPackage.TestClass_final@3c419631]" started-at="2024-11-08T23:46:39 IST" name="login" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="ValidatingDashboardTab()[pri:1, instance:TestPackage.TestClass_final@3c419631]" started-at="2024-11-08T23:46:39 IST" name="ValidatingDashboardTab" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: D:\Automation -Selenium Webdriver\chromedriver_win32\chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\Automation -Selenium Webdriver\chromedriver_win32\chromedriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at BasePackage.BaseClass.launchBrowser(BaseClass.java:26)
+at TestPackage.TestClass_final.browserLaunch(TestClass_final.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatingDashboardTab -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:TestPackage.TestClass_final@3c419631]" started-at="2024-11-08T23:46:39 IST" name="aftermethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPackage.TestClass_final@3c419631]" started-at="2024-11-08T23:46:39 IST" name="login" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="ValidatingOrdersTab()[pri:2, instance:TestPackage.TestClass_final@3c419631]" started-at="2024-11-08T23:46:39 IST" name="ValidatingOrdersTab" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: D:\Automation -Selenium Webdriver\chromedriver_win32\chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\Automation -Selenium Webdriver\chromedriver_win32\chromedriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at BasePackage.BaseClass.launchBrowser(BaseClass.java:26)
+at TestPackage.TestClass_final.browserLaunch(TestClass_final.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatingOrdersTab -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:TestPackage.TestClass_final@3c419631]" started-at="2024-11-08T23:46:39 IST" name="aftermethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="ValidatingHoldingsTab()[pri:3, instance:TestPackage.TestClass_final@3c419631]" started-at="2024-11-08T23:46:39 IST" name="ValidatingHoldingsTab" finished-at="2024-11-08T23:46:39 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: D:\Automation -Selenium Webdriver\chromedriver_win32\chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\Automation -Selenium Webdriver\chromedriver_win32\chromedriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at BasePackage.BaseClass.launchBrowser(BaseClass.java:26)
+at TestPackage.TestClass_final.browserLaunch(TestClass_final.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatingHoldingsTab -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPackage.TestClass_final@3c419631]" started-at="2024-11-08T23:46:39 IST" name="login" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:TestPackage.TestClass_final@3c419631]" started-at="2024-11-08T23:46:39 IST" name="aftermethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestPackage.TestClass_final@3c419631]" started-at="2024-11-08T23:46:39 IST" name="afterClass" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestPackage.TestClass_final -->
+      <class name="TestClass_TestNG.TestNg_Test_enabled_Test_suite">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:TestClass_TestNG.TestNg_Test_enabled_Test_suite@4a22f9e2]" started-at="2024-11-08T23:46:39 IST" name="beforeclass" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestClass_TestNG.TestNg_Test_enabled_Test_suite@4a22f9e2]" started-at="2024-11-08T23:46:39 IST" name="beforemethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="AC04()[pri:0, instance:TestClass_TestNG.TestNg_Test_enabled_Test_suite@4a22f9e2]" started-at="2024-11-08T23:46:39 IST" name="AC04" finished-at="2024-11-08T23:46:39 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at TestClass_TestNG.TestNg_Test_enabled_Test_suite.AC04(TestNg_Test_enabled_Test_suite.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC04 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestClass_TestNG.TestNg_Test_enabled_Test_suite@4a22f9e2]" started-at="2024-11-08T23:46:39 IST" name="aftermethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="TC01()[pri:0, instance:TestClass_TestNG.TestNg_Test_enabled_Test_suite@4a22f9e2]" started-at="2024-11-08T23:46:39 IST" name="TC01" finished-at="2024-11-08T23:46:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestClass_TestNG.TestNg_Test_enabled_Test_suite@4a22f9e2]" started-at="2024-11-08T23:46:39 IST" name="beforemethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestClass_TestNG.TestNg_Test_enabled_Test_suite@4a22f9e2]" started-at="2024-11-08T23:46:39 IST" name="aftermethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestClass_TestNG.TestNg_Test_enabled_Test_suite@4a22f9e2]" started-at="2024-11-08T23:46:39 IST" name="beforemethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="TC02()[pri:0, instance:TestClass_TestNG.TestNg_Test_enabled_Test_suite@4a22f9e2]" started-at="2024-11-08T23:46:39 IST" name="TC02" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestClass_TestNG.TestNg_Test_enabled_Test_suite@4a22f9e2]" started-at="2024-11-08T23:46:39 IST" name="aftermethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="TC03()[pri:0, instance:TestClass_TestNG.TestNg_Test_enabled_Test_suite@4a22f9e2]" started-at="2024-11-08T23:46:39 IST" name="TC03" finished-at="2024-11-08T23:46:39 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at TestClass_TestNG.TestNg_Test_enabled_Test_suite.TC03(TestNg_Test_enabled_Test_suite.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03 -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestClass_TestNG.TestNg_Test_enabled_Test_suite@4a22f9e2]" started-at="2024-11-08T23:46:39 IST" name="beforemethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestClass_TestNG.TestNg_Test_enabled_Test_suite@4a22f9e2]" started-at="2024-11-08T23:46:39 IST" name="aftermethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestClass_TestNG.TestNg_Test_enabled_Test_suite@4a22f9e2]" started-at="2024-11-08T23:46:39 IST" name="beforemethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="TC05()[pri:0, instance:TestClass_TestNG.TestNg_Test_enabled_Test_suite@4a22f9e2]" started-at="2024-11-08T23:46:39 IST" name="TC05" finished-at="2024-11-08T23:46:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestClass_TestNG.TestNg_Test_enabled_Test_suite@4a22f9e2]" started-at="2024-11-08T23:46:39 IST" name="aftermethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:TestClass_TestNG.TestNg_Test_enabled_Test_suite@4a22f9e2]" started-at="2024-11-08T23:46:39 IST" name="afterclass" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- TestClass_TestNG.TestNg_Test_enabled_Test_suite -->
+      <class name="TestClass_TestNG.TestNG_Keywords">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:TestClass_TestNG.TestNG_Keywords@4b5d6a01]" started-at="2024-11-08T23:46:39 IST" name="beforeclass" finished-at="2024-11-08T23:46:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestClass_TestNG.TestNG_Keywords@4b5d6a01]" started-at="2024-11-08T23:46:39 IST" name="beforemethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="TC01()[pri:0, instance:TestClass_TestNG.TestNG_Keywords@4b5d6a01]" started-at="2024-11-08T23:46:39 IST" name="TC01" finished-at="2024-11-08T23:46:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestClass_TestNG.TestNG_Keywords@4b5d6a01]" started-at="2024-11-08T23:46:39 IST" name="aftermethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="TC01()[pri:0, instance:TestClass_TestNG.TestNG_Keywords@4b5d6a01]" started-at="2024-11-08T23:46:39 IST" name="TC01" finished-at="2024-11-08T23:46:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestClass_TestNG.TestNG_Keywords@4b5d6a01]" started-at="2024-11-08T23:46:39 IST" name="beforemethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestClass_TestNG.TestNG_Keywords@4b5d6a01]" started-at="2024-11-08T23:46:39 IST" name="aftermethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestClass_TestNG.TestNG_Keywords@4b5d6a01]" started-at="2024-11-08T23:46:39 IST" name="beforemethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="TC03()[pri:0, instance:TestClass_TestNG.TestNG_Keywords@4b5d6a01]" started-at="2024-11-08T23:46:39 IST" name="TC03" finished-at="2024-11-08T23:46:39 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestClass_TestNG.TestNG_Keywords@4b5d6a01]" started-at="2024-11-08T23:46:39 IST" name="aftermethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="TC02()[pri:0, instance:TestClass_TestNG.TestNG_Keywords@4b5d6a01]" started-at="2024-11-08T23:46:39 IST" name="TC02" finished-at="2024-11-08T23:46:39 IST" depends-on-methods="TestClass_TestNG.TestNG_Keywords.TC03" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02 -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestClass_TestNG.TestNG_Keywords@4b5d6a01]" started-at="2024-11-08T23:46:39 IST" name="beforemethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestClass_TestNG.TestNG_Keywords@4b5d6a01]" started-at="2024-11-08T23:46:39 IST" name="aftermethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="AC04()[pri:2, instance:TestClass_TestNG.TestNG_Keywords@4b5d6a01]" started-at="2024-11-08T23:46:39 IST" name="AC04" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC04 -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:TestClass_TestNG.TestNG_Keywords@4b5d6a01]" started-at="2024-11-08T23:46:39 IST" name="beforemethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:TestClass_TestNG.TestNG_Keywords@4b5d6a01]" started-at="2024-11-08T23:46:39 IST" name="aftermethod" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:TestClass_TestNG.TestNG_Keywords@4b5d6a01]" started-at="2024-11-08T23:46:39 IST" name="afterclass" finished-at="2024-11-08T23:46:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- TestClass_TestNG.TestNG_Keywords -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
